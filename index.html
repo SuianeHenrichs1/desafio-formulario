@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Tech</title>
+</head>
+<body>
+    <div class="container">
+        <section class="header">
+            <h2>Formulário Tecnologia</h2>
+        </section>   
+        <form id="form" class="form">
+            <div class="campo">
+                <label for="serviceName">Nome do Serviço</label>
+                <label>
+                    <input type="radio" name="serviceName" value="Alocacao de Profissionais"> Alocação de Profissionais
+                </label>
+                <label>
+                    <input type="radio" name="serviceName" value="Projetos Sob Demanda"> Projetos Sob Demanda
+                </label>
+                <label>
+                    <input type="radio" name="serviceName" value="Data Engineering"> Data Engineering
+                </label>
+                <label>
+                    <input type="radio" name="serviceName" value="Gestao e Sustentacao"> Gestão e Sustentação
+                </label>
+                <label>
+                    <input type="radio" name="serviceName" value="Discovery"> Discovery
+                </label>
+                <label>
+                    <input type="radio" name="serviceName" value="Cloud Computer"> Cloud Computer
+                </label>
+                <label>
+                    <input type="radio" name="serviceName" value="Outra Opção"> Nenhuma das opções acima
+                </label>
+            </div>
+            <div class="form-content">
+                <label for="otherService">Outro Serviço</label>
+                <input type="text" id="otherService" placeholder="Digite o serviço desejado">
+            </div>
+            <div class="form-content">
+                <label for="productDescription">Descrição do Serviço</label>
+                <input type="text" id="productDescription" placeholder="Digite a descrição do serviço">
+            </div>
+            <div class="campo">
+                <label for="productPrice">Valor do Serviço</label>
+                <div>
+                    <label>
+                        <input type="radio" name="servicePrice" value="R$ 1.000"> R$ 1.000
+                    </label>
+                    <label>
+                        <input type="radio" name="servicePrice" value="R$ 2.000"> R$ 2.000
+                    </label>
+                    <label>
+                        <input type="radio" name="servicePrice" value="R$ 3.000"> R$ 3.000
+                    </label>
+                    <label>
+                        <input type="radio" name="servicePrice" value="R$ 4.000"> R$ 4.000
+                    </label>
+                    <label>
+                        <input type="radio" name="servicePrice" value="Outra Opção"> Nenhuma das opções acima
+                    </label>
+                </div>
+            </div>
+            <div class="form-content">
+                <label for="otherPrice">Outro Valor</label>
+                <input type="text" id="otherPrice" placeholder="Digite o valor desejado">
+            </div>
+            <div class="form-content">
+                <label for="productAvailability">Disponível para venda</label>
+                <select id="productAvailability">
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+            </div>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+        <!-- Referência ao arquivo externo de JavaScript -->
+        <script src="script.js"></script>
+</body>
+</html>
+

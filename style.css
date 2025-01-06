@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    font-family: "Poppins", sans-serif; /* Define a fonte padrão */
+}
+
+body {
+    background: url(img/freepik__upload__2087.jpeg); /* Define a imagem de fundo */
+    background-size: cover; /* Faz a imagem de fundo cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+    width: 100%; /* Define a largura total */
+    min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
+    display: flex; /* Usa flexbox para alinhar o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    color: #fafafa;
+}
+
+.container {
+    background-color: rgba(38, 77, 71, 0.76); /* Define a cor de fundo do container com transparência */
+    border-radius: 14px; /* Define bordas arredondadas */
+    margin: 14px; /* Define a margem ao redor do container */
+    max-width: 600px; /* Define a largura máxima */
+    width: 100%; /* Define a largura total */
+    box-sizing: 0 3px 5px rgba(0, 0, 0, 0.5); /* Define a sombra da caixa */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa os limites do container */
+}
+
+.header {
+    background: linear-gradient(190deg, #042421 0%, #81c7b5 100%); /* Define um gradiente de fundo */
+    padding: 24px; /* Define o espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    color: #fafafa; /* Define a cor do texto */
+}
+
+.form {
+    padding: 18px; /* Define o espaçamento interno */
+}
+
+.form-content {
+    margin-bottom: 8px; /* Define a margem inferior */
+    padding-bottom: 18px; /* Define o padding inferior */
+    position: relative; /* Define a posição relativa */
+}
+
+.form-content label {
+    display: inline-block; /* Exibe como bloco inline */
+    margin-bottom: 4px; /* Define a margem inferior */
+}
+
+.form-content input {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Define o espaçamento interno */
+    border-radius: 8px; /* Define bordas arredondadas */
+    border: 1px solid #ccc; /* Define a borda */
+}
+
+.form button {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Define o espaçamento interno */
+    border-radius: 8px; /* Define bordas arredondadas */
+    border: none; /* Remove a borda */
+    background: linear-gradient(190deg, #042421 0%, #81c7b5 100%); /* Define um gradiente de fundo */
+    color: #fafafa; /* Define a cor do texto */
+    cursor: pointer; /* Define o cursor como ponteiro */
+}
+
+.form button:hover {
+    background: linear-gradient(190deg, #81c7b5 0%, #042421 100%); /* Define um gradiente de fundo ao passar o mouse */
+}
+
+/* Estilo para os títulos "Descrição do Serviço", "Valor do Serviço" e "Outro Serviço" */
+.form-content label[for="productDescription"],
+.campo label[for="productPrice"],
+.campo label[for="otherService"] {
+    font-weight: bold; /* Define o texto em negrito */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    margin-bottom: 1em; /* Define o espaçamento abaixo */
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em; /* Define a margem inferior */
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.5em; /* Define a margem inferior */
+    display: block; /* Exibe como bloco */
+}
+
+/* Estilo para o título "Outro Serviço" */
+.form-content label[for="otherService"] {
+    font-weight: bold; /* Define o texto em negrito */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    margin-bottom: 1em; /* Define o espaçamento abaixo do título */
+}
+
+
+/* Estilo para o título "Nome do Serviço" */
+.campo label[for="serviceName"] {
+    font-weight: bold; /* Define o texto em negrito */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    margin-bottom: 1em; /* Define o espaçamento abaixo do título */
+}
+
+/* Estilo para os botões de rádio e o texto */
+.campo label input[type="radio"] {
+    margin-right: 0.5em; /* Define o espaço entre o rádio e o texto */
+}
+
+.form-content label[for="productAvailability"] {
+    font-weight: bold; /* Define o texto em negrito */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    margin-bottom: 1em; /* Define o espaçamento abaixo do título */
+}
+
+.form-content label[for="otherPrice"] {
+    font-weight: bold; /* Define o texto em negrito */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    margin-bottom: 1em; /* Define o espaçamento abaixo do título */
+}
+
+/* Estilo para o select (caixa de seleção) */
+.form-content select#productAvailability {
+    width: 100%; /* Define a largura total */
+    padding: 10px; /* Define o espaçamento interno */
+    border-radius: 8px; /* Define bordas arredondadas */
+    border: 1px solid #ccc; /* Define a cor da borda */
+}
+
+/* Estilo para as opções dentro do select */
+.form-content select#productAvailability option {
+    padding: 10px; /* Define o espaço interno das opções */
+    font-size: 1em; /* Define o tamanho da fonte das opções */
+}
