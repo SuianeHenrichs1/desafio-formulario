@@ -45,7 +45,7 @@ O *Desafio* tem como objetivo coletar informações sobre serviços como nome, d
 
 O layout foi desenvolvido de maneira responsiva para garantir uma ótima experiência em dispositivos móveis e desktops. Você pode conferir a visualização ao vivo clicando no link abaixo:
 
-🔗 [Acesse o projeto ao vivo](https://suianehenrichs1.github.io/desafio-tech/)
+🔗 [Acesse o projeto ao vivo](https://suianehenrichs1.github.io/desafio-formulario)
 
 ---
 
